@@ -3,7 +3,7 @@
                   :extra-paths ["dev" "test" "test-resources"],
                   :main-opts ["-m" "nrepl.cmdline" "--middleware" "[cider.nrepl/cider-middleware]"
                               "--interactive"]},
-           :test {:extra-deps {lambdaisland/kaocha {:mvn/version "1.63.998"}},
+           :test {:extra-deps {lambdaisland/kaocha {:mvn/version "1.66.1034"}},
                   :extra-paths ["test" "test-resources"]}}
  :deps {clj-rss/clj-rss {:mvn/version "0.3.0"}
         ; io.github.stelcodes/vimhelp-minimal {:local/root "../clj-vimhelp"}
